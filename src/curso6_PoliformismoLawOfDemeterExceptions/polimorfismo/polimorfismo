@@ -1,0 +1,22 @@
+"Na natureza, um animal pode assumir diferentes foemas de acordo com a necessidade de sua vida"
+
+> Em um software OO, uma classe pode assumir a forma de sua superclasse ou de uma de suas interfaces.
+
+"""
+Cavalo c = new Cavalo();
+
+Animal = c;
+"""
+
+*********************************************************************************************************
+
+Dessa forma um objeto pode ser sempre passado em parâmetros do tipo de sua superclasse.
+
+Imagine uma interface movel:
+
+"""
+void addCorrida(Movel m);
+"""
+
+podemos passar em parametro diferentes classes que podem implementar a interface, como o proprio cavalo,
+um carro, uma bicicle e uma pessoa.
